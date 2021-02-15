@@ -179,7 +179,7 @@ def analyze_videos_converth5_to_csv(videopath, videotype=".avi"):
     ]  # exclude labeled-videos!
 
     Allh5files = [
-        fn for fn in os.listdir(os.curdir) if (".h5" in fn) and ("resnet" in fn)
+        fn for fn in os.listdir(os.curdir) if (".h5" in fn) and ("DLC" in fn)
     ]
 
     for video in Videos:
